@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Trekking Nomads- Trekking and camping company    </title>
+</head>
+<body>
+<nav class="navbar background h-nav-resp">
+    <ul class="nav-list v-class-resp">
+        <div class="logo"><img src="img/img.png" alt="logo"></div>
+        <li><a href="#home">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="faq.html">FAQ's</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+    </ul>
+<div class="burger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+</div>
+</nav>
+<section class="background firstSection" id="home">
+    <div class="box-main">
+        <div class="firstHalf">
+            <p class="text-big">One stop destination for all your trekking and camping needs.</p>
+            <p class="text-small">Looking for a well planned trekking and camping trip ?
+                The solution is here navigate through the trekking nomads website to find all your answers. 
+            </p>
+            <div class="buttons">
+                <button class="btn"><a href="#services">Explore treks</a></button>
+                <button class="btn"><a href="#contact">Contact Us</a></button>
+            </div>
+        </div>
+        <div class="secondHalf">
+            <img src="img/img.png" alt="campsite image">
+        </div>
+    </div>
+</section>
+<section class="section" id="services">
+    <div class="paras">
+    <p class="sectionTag text-big">Don't have experience of tent setup?</p>
+    <p class="sectionSubTag text-small">If you are a beginner at setting up a tent or a professional
+        as well who is too lazy to carry their own tent to the premises. Don't worry we got you covered
+        with our own tents placed at specified camping locations without you having to stress about 
+        anything and just enjoying your time while you stay with us.
+    </p>
+        </div>
+        <div class="thumbnail">
+            <img src="img/tent.jpg" alt="logo" class="imgFluid">
+        </div>
+</section>
+<hr class="style">
+<section class="section left">
+    <div class="paras">
+    <p class="sectionTag text-big">Do you feel like trekking is a tedious job ?</p>
+    <p class="sectionSubTag text-small">Trekking can surely be a hectic task for people
+        and it does require prior planning and sorting things out but you don't have to worry about anything 
+        our team at trekking nomads are professionals who are well versed with all the planning and 
+        information that you'll ever need on your next trekking trip.
+    </p>
+        </div>
+        <div class="thumbnail">
+            <img src="img/trek1.jpg" alt="logo" class="imgFluid">
+        </div>
+</section>
+<hr class="style">
+<section class="section">
+    <div class="paras">
+    <p class="sectionTag text-big">Need someone to lead the way for your trek ?</p>
+    <p class="sectionSubTag text-small">We know that it's your first time going on a trek and you are
+        trying to wrap your head around how will you get it done all by yourself. With our local guides
+        you don't really have to do everything by yourself as you'll be escorted and will be provided with 
+        intersting information along the trek route.
+    </p>
+        </div>
+        <div class="thumbnail">
+            <img src="img/trek2.jpg" alt="logo" class="imgFluid">
+        </div>
+</section>
+<hr class="style">
+<section class="contact" id="contact">
+   <h1 class="text-advance">Contact Us</h1>
+   <form class="form" action="php/contactus.php" method="post">
+    <input class="form-input" type="text" name="name" id="name" placeholder="Enter your Name">
+    <input class="form-input" type="number" name="num" id="num" placeholder="Enter your Phone Number">
+    <input class="form-input" type="email" name="email" id="email" placeholder="Enter your Email Address">
+    <h1 class="form-text">Choose your starting Date:</h1><input class="form-input" type="date" name="Sdate" id="date">
+    <h1 class="form-text">Choose your ending Date:</h1><input class="form-input" type="date" name="Edate" id="date">
+    <input class="form-input" type="text" name="serve" id="serve" placeholder="Enter your Service name">
+    <input class="form-input" type="text" name="query" id="query" cols="30" rows="4" placeholder="Any other specific query:">
+    <input type="submit" class="btn-dark btn" value="Submit">
+   </form>
+</section>
+<footer class="background">
+    <p class="text-footer">
+    Copyright &copy; 2027 www.trekkingnomad.com- All rights Reserved
+    </p>
+</footer>
+<script src="js/resp.js"></script>
+</body>
+</html>
